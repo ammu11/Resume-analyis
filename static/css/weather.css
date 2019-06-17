@@ -1,0 +1,57 @@
+        body{
+             background: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+             background-size:cover;
+         }
+      
+         .navbar {
+         border-radius: 0px;
+         }
+         /**/
+         html, body { width:100%; height:100%;color:#00aae7}
+         #wrapper { width:100%; min-height:100%; height:auto; }
+         #wrapper > header { width:100%; height:auto;  }
+         #wrapper > section { width:100%; height:auto; }
+         
+         #red{
+             color:#00aae7;
+             font-weight:600;
+         }
+         
+         .dslogo{
+             padding-top: 8px;float:right;height: 150px;width: 100px;
+         }
+         
+         #footpara1{
+             font-weight:600;text-align:center;margin-left:-100px;
+         }
+         
+          #footpara2{
+             text-align:center;margin-right:-40px;
+         }
+         
+         /*media queries*/
+         @media only screen and (min-width:330px) and (max-width:1000px) {
+             .dslogo {
+                 width:1000px !important;
+				 margin-top:-5px;
+             }
+             #footpara1 {
+                 text-align:center;
+                 margin-left:0px;
+             }
+             #footpara2 {
+                 text-align:center;
+                 float:none !important;
+                 margin-right:0px;
+				 margin-top:-2px;
+             }
+             #mrgtop{
+                 margin-top:100px !important;
+             }
+			 footer{
+				 position: fixed
+				 height:85px;
+			 }
+         }
+          
+         /*end*/
